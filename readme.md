@@ -23,3 +23,7 @@ As for deleting, there are three methods used for different occasions:
 - os.remove(): used for deleting file
 - os.rmdir(): used for deleting empty directory
 - shutil.rmtree(): used for deleting non-empty directory
+
+# Modules
+
+A python file containing functions and classes, etc. Used for module programming to separate program into parts.
