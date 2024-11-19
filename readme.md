@@ -27,3 +27,16 @@ As for deleting, there are three methods used for different occasions:
 # Modules
 
 A python file containing functions and classes, etc. Used for module programming to separate program into parts.
+
+# Object oriented programming
+
+in Python, we have class variables and instance variables, the differences between them are as follows:
+
+- instant variables: defined in the constructor
+- class variables: defined out of the constructor, can be accessed by instance or class, we can modify the class variables for all the instances, but if it's modified through instance, then it'll be independent from class variables, that means it can not be modified through class again.
+
+Python support multiple inheritance, so a child class can inheritance from multiple parent classes.
+
+Method Chain is a pattern used for a sequential method calling, every method return itself.
+
+Super() method can used to access the parent class, by using the pattern, we can transfer some common code between children' classes to the parent class. 
