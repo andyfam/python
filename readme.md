@@ -39,4 +39,12 @@ Python support multiple inheritance, so a child class can inheritance from multi
 
 Method Chain is a pattern used for a sequential method calling, every method return itself.
 
-Super() method can used to access the parent class, by using the pattern, we can transfer some common code between children' classes to the parent class. 
+Super() method can be used to access the parent class, by using the pattern, we can transfer some common code between children' classes to the parent class. 
+
+Abstract class can prevent user from creating an object of that class, compels user to implement the abstract methods in child classes.
+
+We can use object as method parameter, but the type of the object is not checked, Python only check the attributes and methods of the object, and this is called Duck Typing.
+
+# Walrus Operator
+
+The walrus operator `:=` gives you the ability to make the assignment code as part of the larger expression, that is useful for shortening code. 
