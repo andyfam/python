@@ -54,3 +54,34 @@ The walrus operator `:=` gives you the ability to make the assignment code as pa
  
 # Lambda function
 A shortcut of defining a function, used for functions that being used few times and then being thrown away.
+
+# Sort
+
+Sort() method is only available for list, but sorted() function can be used for all iterables.
+
+# Map Function
+
+Map() function used to apply a function to each item in iterable (list, tuple, etc.), but remember to cast the Map Object to list or tuple afterward.
+
+# Filter Function
+
+Filter() function is used to create a subset of an original iterable base on a condition.
+
+# Reduce Function
+
+Reduce() function is used to accumulate all the elements in an iterable to produce a single value.
+
+# List Comprehension
+
+List comprehension is a simpler way to create a new list, the syntax is as follows:
+- `list = [expression for item in iterable]`, 
+- `list = [expression for item in iterable if condision]`, 
+- `list = [expression (if/else) for item in iterable]`
+
+# Dictionary Comprehension
+
+Dictionary Comprehension is a simpler way to create a new dictionary, the syntax is as follows:
+- `dic = [key: expression for (key, value) in iterable]`, 
+- `dic = [key: expression for (key, value) in iterable if condision]`, 
+- `dic = [key: (if/else) for (key, value) in iterable]`
+- `dic = [key: function(value) for (key, value) in iterable]`
