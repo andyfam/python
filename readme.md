@@ -48,3 +48,9 @@ We can use object as method parameter, but the type of the object is not checked
 # Walrus Operator
 
 The walrus operator `:=` gives you the ability to make the assignment code as part of the larger expression, that is useful for shortening code. 
+
+# Higher Order Function
+ Higher Order Function is a function which accept a function as a parameter or return a function as a result.
+ 
+# Lambda function
+A shortcut of defining a function, used for functions that being used few times and then being thrown away.
