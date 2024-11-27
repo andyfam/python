@@ -85,3 +85,7 @@ Dictionary Comprehension is a simpler way to create a new dictionary, the syntax
 - `dic = [key: expression for (key, value) in iterable if condision]`, 
 - `dic = [key: (if/else) for (key, value) in iterable]`
 - `dic = [key: function(value) for (key, value) in iterable]`
+
+# Zip function
+
+Zip function is used to aggregate two or more iterables into zip object with paired elements stored in tuples. 
