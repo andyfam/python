@@ -95,3 +95,17 @@ Zip function is used to aggregate two or more iterables into zip object with pai
 # Time
 
 Time module provide a lot of useful functions to deal with time.
+
+# Thread
+
+There are two types of program/task:
+- cpu bound: spend most of its time waiting for internal events (CPU intensity), better to use multiprocessing.
+- io bound: spend most of its time waiting for external events (user input), better using multithreading.
+
+In Python, threads use GIL (Global Interpreter Lock) to allow only one thread to hold the control of the Python Interpreter. Each thread takes a turn running to achieve concurrency.
+
+Thread running is asynchronize, but we can use `join()` to make it synchronized.
+
+Daemon threads are used for not important tasks to run at the background, the main thread will not wait for the daemon thread to exit.
+
+When we use multiprocessing, we can improve the speed by increase the process until reaching the cpu count, but if we create more process object than the cpu cores, we will reduce the performance because of the overhead of creating and destroying the process objects.
