@@ -14,9 +14,9 @@ If we write a file with a `w` mode, it will overwrite the content, if we want to
 
 In order to copy, we need to import shutil module, there are three methods for copying:
 
-- copyfile(): copys only the content of the file
+- copyfile(): copies only the content of the file
 - copy(): used mostly, copyfile() + permission mode + destination could be a directory
-- copy2(): copy() + copys metadata (file's creation and modification times)
+- copy2(): copy() + copies metadata (file's creation and modification times)
 
 As for deleting, there are three methods used for different occasions:
 
@@ -27,6 +27,8 @@ As for deleting, there are three methods used for different occasions:
 # Modules
 
 A python file containing functions and classes, etc. Used for module programming to separate program into parts.
+
+Sometimes, we write statement `if __name__ == '__main__'` in our module to check if the module is executed directed by user or imported by other module, for example, we can write some test case in the block.
 
 # Object oriented programming
 
@@ -89,3 +91,7 @@ Dictionary Comprehension is a simpler way to create a new dictionary, the syntax
 # Zip function
 
 Zip function is used to aggregate two or more iterables into zip object with paired elements stored in tuples. 
+
+# Time
+
+Time module provide a lot of useful functions to deal with time.
